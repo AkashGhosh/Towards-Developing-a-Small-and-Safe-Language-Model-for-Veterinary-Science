@@ -17,10 +17,15 @@
 
 # Setting Up
 . [Comment] Before running, configure your python files  with the correct Hugging Face token, Weights & Biases API key, model checkpoint path, and dataset path.
-conda create --name=video_chatgpt python
+
+conda create --name=vetlm
+
 conda activate vetlm
+
 git clone https://github.com/AkashGhosh/Towards-Developing-a-Small-and-Safe-Language-Model-for-Veterinary-Science.git
+
 cd Codes
+
 . [Pretrain] python vet_pretrain_final.py
 . [Instruction Finetuning] python vet_finetune.py
 . [Safety Alignment] python safety_postrain.py
