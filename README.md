@@ -134,6 +134,12 @@ In other words, “convincing but unsafe” lost to “accurate, safe, clinicall
 
 ---
 
+## Qualitative Evaluation
+
+<p align="center">
+  <img src="./Image/hello.drawio.png" />
+</p>
+
 
 
 
