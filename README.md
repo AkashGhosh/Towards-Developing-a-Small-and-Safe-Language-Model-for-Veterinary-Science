@@ -40,6 +40,7 @@ python vet_finetune.py
 
  [Safety Alignment]
 python safety_postrain.py
+'''
 
 # About the Paper
 
