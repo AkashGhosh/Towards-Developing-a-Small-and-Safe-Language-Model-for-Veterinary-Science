@@ -24,7 +24,7 @@ We recommend setting up a conda environment before running the project:
  - Weights & Biases API key
  - model checkpoint path
  - dataset path
-
+```bash
 conda create --name=vetlm python=3.10
 conda activate vetlm
 
@@ -40,7 +40,7 @@ python vet_finetune.py
 [Safety Alignment]
 python safety_postrain.py
 
-
+```bash
 
 # About the Paper
 
