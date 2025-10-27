@@ -42,7 +42,7 @@ python vet_finetune.py
 python safety_postrain.py
 
 
-## About the Paper
+# About the Paper
 
 **VetLM: Towards Developing a Small and Safe Language Model for Veterinary Science** introduces the first end-to-end veterinary language model stack built specifically for animal health.
 
@@ -60,7 +60,7 @@ python safety_postrain.py
 
 ---
 
-## The VetLM Pipeline
+# The VetLM Pipeline
 
 VetLM is more than just a model. It is an ecosystem: data → instruction tuning → safety alignment.
 
@@ -103,7 +103,7 @@ VetLM is more than just a model. It is an ecosystem: data → instruction tuning
 
 ---
 
-## Evaluation Results
+# Evaluation Results
 
 We benchmark VetLM against strong open-source, general-purpose models (Llama-3.x, Gemma-2, Qwen-3, Phi-3.5, etc.).
 
@@ -138,7 +138,7 @@ Metrics include ROUGE-1/2/L, BLEU-1→4, and BERTScore.
 
 
 
-## Human Evaluation
+# Human Evaluation
 
 Automated metrics are not enough in a medical/safety-critical domain.
 
@@ -160,7 +160,7 @@ In other words, “convincing but unsafe” lost to “accurate, safe, clinicall
 
 ---
 
-## Qualitative Evaluation
+# Qualitative Evaluation
 
 <p align="center">
   <img src="./Image/hello.drawio.png" />
