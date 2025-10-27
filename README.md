@@ -15,7 +15,7 @@
 . [VetLM Instruct](https://huggingface.co/Agcs12/vetfinetune3B)  
 . [VetLM Safe](https://huggingface.co/Agcs12/vetsafepostrain1epoch)
 
-## Installation 🛠️
+# Installation 🛠️
 
 We recommend setting up a conda environment before running the project:
 
@@ -32,13 +32,13 @@ conda activate vetlm
 git clone https://github.com/AkashGhosh/Towards-Developing-a-Small-and-Safe-Language-Model-for-Veterinary-Science.git
 cd Towards-Developing-a-Small-and-Safe-Language-Model-for-Veterinary-Science/Codes
 
-# [Pretrain]
+ [Pretrain]
 python vet_pretrain_final.py
 
-# [Instruction Finetuning]
+ [Instruction Finetuning]
 python vet_finetune.py
 
-# [Safety Alignment]
+ [Safety Alignment]
 python safety_postrain.py
 
 
