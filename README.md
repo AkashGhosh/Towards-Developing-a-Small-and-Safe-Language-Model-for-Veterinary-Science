@@ -12,7 +12,9 @@
 
 
 # Models
-#### [VetLM 3B](https://huggingface.co/Agcs12/vetfinetune3B) [VetLM Safe](https://huggingface.co/Agcs12/vetsafepostrain1epoch)
+. [VetLM 3B](https://huggingface.co/Agcs12/vetfinetune3B)  
+. [VetLM Safe](https://huggingface.co/Agcs12/vetsafepostrain1epoch)
+
 
 
 
