@@ -19,7 +19,6 @@
 
 We recommend setting up a conda environment before running the project:
 
-```bash
 [Comment] Before running, configure your Python files with:
  - valid Hugging Face token
  - Weights & Biases API key
@@ -32,15 +31,16 @@ conda activate vetlm
 git clone https://github.com/AkashGhosh/Towards-Developing-a-Small-and-Safe-Language-Model-for-Veterinary-Science.git
 cd Towards-Developing-a-Small-and-Safe-Language-Model-for-Veterinary-Science/Codes
 
- [Pretrain]
+[Pretrain]
 python vet_pretrain_final.py
 
- [Instruction Finetuning]
+[Instruction Finetuning]
 python vet_finetune.py
 
- [Safety Alignment]
+[Safety Alignment]
 python safety_postrain.py
-'''
+
+
 
 # About the Paper
 
