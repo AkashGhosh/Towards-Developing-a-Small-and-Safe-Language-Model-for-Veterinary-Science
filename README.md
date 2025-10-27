@@ -15,20 +15,31 @@
 . [VetLM Instruct](https://huggingface.co/Agcs12/vetfinetune3B)  
 . [VetLM Safe](https://huggingface.co/Agcs12/vetsafepostrain1epoch)
 
-# Setting Up
-. [Comment] Before running, configure your python files  with the correct Hugging Face token, Weights & Biases API key, model checkpoint path, and dataset path.
+## Installation 🛠️
 
-conda create --name=vetlm
+We recommend setting up a conda environment before running the project:
 
+```bash
+# [Comment] Before running, configure your Python files with:
+# - valid Hugging Face token
+# - Weights & Biases API key
+# - model checkpoint path
+# - dataset path
+
+conda create --name=vetlm python=3.10
 conda activate vetlm
 
 git clone https://github.com/AkashGhosh/Towards-Developing-a-Small-and-Safe-Language-Model-for-Veterinary-Science.git
+cd Towards-Developing-a-Small-and-Safe-Language-Model-for-Veterinary-Science/Codes
 
-cd Codes
+# [Pretrain]
+python vet_pretrain_final.py
 
-. [Pretrain] python vet_pretrain_final.py
-. [Instruction Finetuning] python vet_finetune.py
-. [Safety Alignment] python safety_postrain.py
+# [Instruction Finetuning]
+python vet_finetune.py
+
+# [Safety Alignment]
+python safety_postrain.py
 
 
 
