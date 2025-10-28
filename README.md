@@ -42,6 +42,10 @@ python safety_postrain.py
 
 ```
 
+# Demo
+
+To run the demo, please use the IPYNB file name VetLM_demo from the Codes folder
+
 # About the Paper
 
 **VetLM: Towards Developing a Small and Safe Language Model for Veterinary Science** introduces the first end to end veterinary language model stack built specifically for animal health.
